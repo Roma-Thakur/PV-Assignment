@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.10.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"crossorigin="anonymous">
+
+    <title>GymFluencer</title>
+    <link rel="icon" href="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Vector.png" type="image/x-icon"/>
+  </head>
+  <body style="background-color: black; font-family: 'Orbitron';">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration:2000,
+      });
+    </script>
+
+<div class="container-fluid">
+  <div class="row">
+  <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid" style="padding: 10px; margin-left: 100px;">
+    <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Logo.png">
+    <b><a class="navbar-brand" style="color:black;">GymFluencer</a></b>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left:15%;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="color: grey;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: grey;">About</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: grey;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: grey;">Benefits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: grey;">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: grey;">Contact</a>
+        </li>
+        <li>
+            <button class="btn-danger" style="background-color: red; width: 150px; height: 40px; border-radius: 50px;">Join us now</button>
+        </li>
+      </ul>
+</nav>
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1500">
+      <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\BG.png" class="d-block w-100" style="filter: brightness(30%);">
+      <div class="carousel-caption d-none d-md-block">
+          <h1 style="font-size: 85px; color: red; font-weight: bold; margin-bottom: 10%;">Track Your Fitness<br>
+          Journey</h1>
+          <p style="font-family: Space Grotesk; font-size: 22px;">Discover the ultimate fitness companion with GymFluencer. Effortlessly log your workouts,<br>
+          count reps, and track calories burned. Stay motivated and achieve your goals with ease.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <h1 style="font-size: 80px; color: red; font-weight: bold; margin-top: 15%; text-align: center;">YOUR FITNESS.<br>OUR MISSION.</h1>
+    <p style="font-family: Space Grotesk; font-size: 22px; text-align: center; color: white;">At GymFluencer, our mission is simple: to provide the tools and support you need to<br>reach your fitness goals. We combine innovative technology with personalized<br>guidance to make fitness easier, more accessible, and more motivating. Join us as we<br>help you transform your fitness journey, one workout at a time.</p>
+</div>
+
+<div class="container">
+    <div class="row" style="color: white; margin-top: 50px;">
+        <div class="col-md-4 text-center">
+            <p class="display-5">422k+</p>
+            <p>Workouts logged and progress tracked every month</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <p class="display-5">122k+</p>
+            <p>Fitness enthusiasts connected through our platform</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <p class="display-5">2+</p>
+            <p>Countries where GymFluencer is making an impact</p>
+        </div>
+    </div>
+</div>
+<iframe width="100%" height="500px" style="padding-left: 350px; padding-right: 350px; border-radius: 20%;"
+src="https://www.youtube.com/embed/pznrAWMhahA?si=oIH4WDxS8byyNLn1"></iframe>
+
+<div class="container-fluid" style="height: 700px; position: relative;">
+    <div class="row" style="display: flex; justify-content: space-between; width: 1270px;">
+        <h1 class="display-7" style="color: red; text-align: center; font-weight: bold; margin-left: 150px;">OUR SERVICES</h1>
+        <p class="lead text-white" style="font-family: Space Grotesk; font-size: 22px; text-align: center; color: white; margin-left: 150px;">GymFluencer offers 5 essential services to help you<br>achieve your fitness goals with ease and flexibility.</p>
+        <div class="col-md-1">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Link 1.png" alt="Image 1" style="height: 70%; width: 350px;">
+            <div class="text-overlay" style="position: absolute;
+            top: 30%;
+            left: 150%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 5px;">
+                <h1>TRACK</h1>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Link 2.png" alt="Image 2" style="height: 70%; width: 350px;">
+            <div class="text-overlay" style="position: absolute;
+            top: 30%;
+            left: 150%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 5px;">
+                <h1>ANALYZE</h1>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Link 3.png" alt="Image 3" style="height: 70%; width: 350px;">
+            <div class="text-overlay" style="position: absolute;
+            top: 30%;
+            left: 150%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 5px;">
+                <h1>TRAIN</h1>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Link 4.png" alt="Image 4" style="height: 70%; width: 350px;">
+            <div class="text-overlay" style="position: absolute;
+            top: 30%;
+            left: 150%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 5px;">
+                <h1>CONNECT</h1>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Link 5.png" alt="Image 5" style="height: 70%; width: 350px;">
+            <div class="text-overlay" style="position: absolute;
+            top: 30%;
+            left: 170%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 5px;">
+                <h1>CHALLENGE</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="rectangle" style="width: 150px;
+            height: 18px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            margin-top: 5%;
+            margin-left: 500px;">
+                <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Star1.png"> 
+                <h2 style="font-size: 15px; font-family: sans-serif; margin-top: 5px; margin-left: 5px;">Our Benefits</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="hero">
+    <div class="container-fluid">
+        <div class="row" style="margin-top: auto;">
+                <h1 style="font-size: 50px; color: red; font-weight: bold; padding-left: 25%;">Discover GymFluencer Benefits</h1>
+                <p style="font-family: Space Grotesk; font-size: 22px; text-align: center; color: white;">Unlock your full potential with GymFluencer, your personal fitness<br>partner for progress and motivation.</p>
+        </div>
+    </div>
+</section>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 28rem; background-color: #080808; margin-left: 5%; border-color: gray; border-radius: 3%;">
+                <div class="card-body">
+                    <div class="card" style="background-color: #080808; width: 15%;">
+                        <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Card 1.png">
+                    </div>
+                  <h5 class="card-title" style="color: red; font-weight: bold; font-size: 25px;">Effortless Workout Logging</h5>
+                  <p class="card-text" style="color: grey; font-size: 20px; font-family: Space Grotesk; padding-top: 5%; font-weight: bold;">Easily log your workouts and monitor<br>your progress over time with our intuitive<br>logging feature.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 28rem; background-color: #080808; margin-left: 5%; border-color: gray; border-radius: 3%; margin-top: 10%;">
+                <div class="card-body">
+                    <div class="card" style="background-color: #080808; width: 15%;">
+                        <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Card 3.png" class="rounded-top">
+                    </div>
+                  <h5 class="card-title" style="color: red; font-weight: bold; font-size: 25px;">Accurate Rep Counting</h5>
+                  <p class="card-text" style="color: grey; font-size: 20px; font-family: Space Grotesk; padding-top: 5%; font-weight: bold;">Count your reps accurately with our app, ensuring consistency and improved performance.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div>
+                <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Container 2.png" alt="Phone Image" class="phone-image" style="margin-left: 10%;">
+                <div class="phone-content">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card" style="width: 28rem; background-color: #080808; border-color: gray; border-radius: 3%;">
+                <div class="card-body">
+                    <div class="card" style="background-color: #080808; width: 15%;">
+                        <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Card 2.png" class="rounded-top">
+                    </div>
+                  <h5 class="card-title" style="color: red; font-weight: bold; font-size: 25px;">Personalized Workout Plans</h5>
+                  <p class="card-text" style="color: grey; font-size: 20px; font-family: Space Grotesk; padding-top: 5%; font-weight: bold;">AI-powered workout plans tailored to your fitness level, goals, and progress.</p>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 28rem; background-color: #080808; border-color: gray; border-radius: 3%; margin-top: 10%;">
+                <div class="card-body">
+                    <div class="card" style="background-color: #080808; width: 15%;">
+                        <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Card 4.png" class="rounded-top">
+                    </div>
+                  <h5 class="card-title" style="color: red; font-weight: bold; font-size: 25px;">Calorie Calculation & Personalized Diet Plans</h5>
+                  <p class="card-text" style="color: grey; font-size: 20px; font-family: Space Grotesk; padding-top: 5%; font-weight: bold;">Calculate calories burned during workouts and AI-customized meal plans for optimal nutrition and wellness </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Section 1.png">
+
+<p><b><marquee style="background-color: #FF3131; color: white; font-family: sans-serif; font-size: 15px; height: 45px; padding-top: 10px; transform: translateX(); display: flex; font-weight: lighter;">
+    PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . 
+    PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . 
+    PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . 
+    PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . 
+    PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . 
+    PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . 
+    PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . 
+    PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . PROGRESS TRACKING FITNESS PLANS . WORKOUT ROUTINES . </marquee></b></p>
+
+<div>
+    <div class="row" style="height: 600px;">
+        <div class="col-md-6">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Design 1.png" style="width: 150%; height: 40%; filter: brightness(20%); margin-top: 5%;">
+            <div class="position-absolute" style="top: 5%; left: 10%; width: 6px; height: 9%; background-color: red;"></div> 
+
+            <div class="position-absolute" style="top: 30%; left: 10%; width: 100px; height: 35px; background-color: #333; border: 1px solid #fff; margin-right: 150px;"></div> 
+    
+            <div class="position-absolute" style="top: 35%; left: 10%; width: 50%; height: 2px; background-color: #fff;"></div> 
+        </div>
+        <div class="col-md-3">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\BB 1.png" style="width: 90%; height: 40%; margin-top: 10%;">
+        </div>
+        <div class="col-md-3">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\BB 2.png" style="width: 90%; height: 40%; margin-top: 10%;">
+        </div>
+    </div>
+</div>
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1500">
+        <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\BG 5.png" class="d-block w-100" style="filter: brightness(30%);">
+        <div class="carousel-caption d-none d-md-block">
+            <h4 style="font-size: 40px; color: white; font-weight: bold; margin-bottom: 40%;">WHAT PEOPLE SAY</h4>
+        </div>
+      </div>
+<div class="col-lg-6 mb-4">
+      <div class="card mb-3" style="max-width: 600px; background-color: black; margin-left: 80px; margin-top: 200px; height: 250px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Gym.png" class="img-fluid rounded-start" style="height: 250px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Star.png">
+                <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Star.png">
+                <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Star.png">
+                <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Star.png">
+                <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Star.png">
+
+                <div class="position-absolute" style="top: 80%; left: 10%; width: 5%; height: 2px; background-color: #fff;"></div> 
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+</div>
+</div>
+</div>
+
+<section class="find-gym">
+    <div class="container-fluid">
+        <h1 class="display-9" style="color: red; text-align: center; font-weight: bold; font-size: 25px;">FIND YOUR NEAREST GYM</h1>
+        <p class="lead text-white" style="font-family: Space Grotesk; font-size: 22px; text-align: center; color: white;">Easily discover gyms near your location to kickstart<br>your fitness journey today!</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="gym-list">
+
+                    <div class="card mb-3" style="width: 550px; background-color: red; height: 120px; margin-left: 80px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\C1.png" class="img-fluid rounded-start" style="height: 120px;">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title" style="color: white; font-weight: bold; font-size: 25px; font-family: sans-serif;">Physc Gym Nerul 24 / 7</h5>
+                              <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Call.png" style="display: inline; align-items: center;">
+                              <span style="color: white; font-family: sans-serif; font-size: 15px;">+91 1234567890</span><br>
+                              <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Location.png" style="display: inline; align-items: center;">
+                              <span style="color: white; font-family: sans-serif; font-size: 15px;">Nerul, Navi Mumbai, Maharashtra, 400706</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" style="width: 550px; background-color: #080808; height: 120px; margin-left: 80px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\C2.png" class="img-fluid rounded-start" style="height: 120px;">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title" style="color: white; font-weight: bold; font-size: 25px; font-family: sans-serif;">Iron Fitness</h5>
+                              <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Call.png" style="display: inline; align-items: center;">
+                              <span style="color: white; font-family: sans-serif; font-size: 15px;">+91 1234567890</span><br>
+                              <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Location.png" style="display: inline; align-items: center;">
+                              <span style="color: white; font-family: sans-serif; font-size: 15px;">Nerul, Navi Mumbai</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" style="width: 550px; background-color: #080808; height: 120px; margin-left: 80px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\C3.png" class="img-fluid rounded-start" style="height: 120px;">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title" style="color: white; font-weight: bold; font-size: 22px; font-family: sans-serif;">Hydropower Fitness & Gym</h5>
+                              <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Call.png" style="display: inline; align-items: center;">
+                              <span style="color: white; font-family: sans-serif; font-size: 15px;">+91-22-0001-0211</span><br>
+                              <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Location.png" style="display: inline; align-items: center;">
+                              <span style="color: white; font-family: sans-serif; font-size: 15px;">28345 Industrial Blvd, Hayward, CA 94545</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" style="width: 550px; background-color: #080808; height: 120px; margin-left: 80px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\C4.png" class="img-fluid rounded-start" style="height: 120px;">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title" style="color: white; font-weight: bold; font-size: 25px; font-family: sans-serif;">Yuva Fitness</h5>
+                              <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Call.png" style="display: inline; align-items: center;">
+                              <span style="color: white; font-family: sans-serif; font-size: 15px;">+91 1234567890</span><br>
+                              <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Location.png" style="display: inline; align-items: center;">
+                              <span style="color: white; font-family: sans-serif; font-size: 15px;">Nerul, Navi Mumbai</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="map">
+                    <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Map.png" style="height: 520px; width: 550px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="row">
+    <h1 class="display-9" style="color: red; text-align: center; font-weight: bold; font-size: 40px;">OUR LATEST BLOGS</h1>
+
+    <div class="col-md-8">
+        <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Background.png" style="margin-left: 5%;">
+    </div>
+    <div class="col-md-4">
+        <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Container 1.png">
+        <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Container.png" style="margin-top: 6%;">
+    </div>
+</div>
+
+<img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Section 2.png" style="margin-top: 5%;">
+<img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Logo.png" style="margin-top: 5%; width: 250px; margin-left: 40%;">
+<h4 style="margin-left: 37%; color: gray;">Where Fitness Meets Social</h4>
+<h4 style="margin-left: 43%; color: gray;">Connection!</h4>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="rectangle" style="width: 270px;
+            height: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            margin-top: 5%;
+            margin-left: 400px;">
+                <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Mail.png"> 
+                <h2 style="font-size: 15px; font-family: sans-serif; margin-top: 5px; margin-left: 5px;">hello@gym.birlaventures.com</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h4 style="margin-top: 5%; margin-left: 500px;">Home . Diet Plan . Features . FAQ's . </h4>
+
+<hr class="new4" style="width: 100%; size: 2; color: gray; margin-top: 3%;">
+<div class="row">
+    <h5 style="display: flex;">2024 GymFluencer.All Rights Reserved.
+    <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Link1.png" style="width: 70px; display: flex; margin-left: 700px;">
+    <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Link2.png" style="width: 70px; display: flex; margin-left: 20px;">
+    <img src="C:\xampp\htdocs\Persist Ventures Assignment\imgs\Link3.png" style="width: 70px; display: flex; margin-left: 20px;"></h5>
+</div>
+
+  </body>
+</html>
